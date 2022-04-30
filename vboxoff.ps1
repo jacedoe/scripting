@@ -1,13 +1,12 @@
-﻿$vm=C:\'Program Files'\Oracle\VirtualBox\.\VBoxManage.exe 
-$vmr=C:\'Program Files'\Oracle\VirtualBox\.\VBoxManage.exe list runningvms
+﻿$VMR=C:\'Program Files'\Oracle\VirtualBox\.\VBoxManage.exe list runningvms
 
-Foreach($i in $vmr)
+Foreach($i in $VMR)
 
 {
 
 New-Object -TypeName psobject -Property @{
 
-    index= $vmr.indexof($i)
+    index= $VMR.indexof($i)
 
     Value= $i } 
    
