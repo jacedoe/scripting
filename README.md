@@ -1,2 +1,2 @@
 # scripting
-Where pull my scripts
+Where I push my scripts
