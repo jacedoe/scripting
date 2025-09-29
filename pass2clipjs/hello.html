@@ -1,0 +1,82 @@
+<html>
+  <head>
+  <title>Password Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .input-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input[type="number"] {
+      width: 200px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    #password-display {
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+  <body>
+    <h1>Hello Extensions</h1>
+  <div class="input-container">
+    <label for="password-length">Password Length:</label>
+    <input type="number" id="password-length" value="10">
+  </div>
+
+  <div class="input-container">
+    <label for="num-non-alphanumeric">Number of Non-Alphanumeric Characters:</label>
+    <input type="number" id="num-non-alphanumeric" value="2">
+  </div>
+
+  <div class="input-container">
+    <button id="generate-password-button">Generate Password</button>
+  </div>
+
+  <div id="password-display">
+    <span id="generated-password">Generated password: </span>
+  </div>
+      <div id="input-container">
+        <button id="copy-password-btn">Copy</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
