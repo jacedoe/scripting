@@ -1,17 +1,6 @@
 
 # 📚 BIBLIOTECA DE PROMPTS TI
 
----
-layout: default
-title: "Código de prueba"
----
-
-## Ejemplo de código en JavaScript
-
-```js
-console.log("Hola, mundo!");
-
-
 Autor: jacedoe
 Última actualización: [05/10/2025]
 Formato: Texto plano
@@ -26,7 +15,7 @@ Objetivo: Centralizar prompts útiles para tareas de administración de sistemas
 *   Nivel: Básico
 *   Descripción: Buscar archivos grandes dentro de un directorio.
 *   Prompt:
-  
+  ######
     Dame un comando en Bash para buscar todos los archivos mayores a 500 MB dentro de /var y mostrar sus rutas completas y tamaño.
   
 🔹 **Prompt #013**
@@ -34,7 +23,7 @@ Objetivo: Centralizar prompts útiles para tareas de administración de sistemas
 *   Nivel: Intermedio
 *   Descripción: Cambiar permisos recursivamente.
 *   Prompt:
-  
+  ######
      ¿Cuál es el comando para cambiar recursivamente los permisos a 644 para archivos y 755 para directorios dentro de `/opt/scripts`?
 
 🔹 **Prompt #014**
