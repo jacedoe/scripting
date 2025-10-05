@@ -1,10 +1,10 @@
 
 # 📚 BIBLIOTECA DE PROMPTS TI
 
-Autor: jacedoe
-Última actualización: [05/10/2025]
-Formato: Texto plano
-Objetivo: Centralizar prompts útiles para tareas de administración de sistemas Windows y Linux con herramientas de IA como ChatGPT.
+* Autor: jacedoe
+* Última actualización: [05/10/2025]
+* Formato: Texto plano
+* Objetivo: Centralizar prompts útiles para tareas de administración de sistemas Windows y Linux con herramientas de IA como ChatGPT.
 
 ----------------------------------------
 ## 📁 CATEGORÍA: ARCHIVOS Y PERMISOS
