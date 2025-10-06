@@ -78,6 +78,14 @@
   ######
      Dame un script en Bash para crear un usuario llamado `analista` en Ubuntu, agregarlo al grupo `sudo` y forzar el cambio de contraseña en el primer inicio de sesión.
 
+🔹 **Prompt #002**
+*   Sistema: Windows
+*   Nivel: Básico
+*   Descripción: Cerrar la sesión de un usuario desde Powershell.
+*   Prompt:
+  ######
+     Cerrar sesión de otro usuario en Windows desde PowerShell
+
 ----------------------------------------
 ## 📁 CATEGORÍA: PERMISOS Y SEGURIDAD
 ----------------------------------------
